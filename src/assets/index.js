@@ -91,6 +91,14 @@ import sub8_3 from './8-3.png';
 import sub8_4 from './8-4.png';
 import sub8_5 from './8-5.png';
 import sub8_6 from './8-6.png';
+import sub9_1 from './9-1.png';
+import sub9_2 from './9-2.png';
+import sub10_1 from './10-1.png';
+import sub10_2 from './10-2.png';
+import sub10_3 from './10-3.png';
+import sub10_4 from './10-4.png';
+import sub10_5 from './10-5.png';
+import sub10_6 from './10-6.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
@@ -103,5 +111,7 @@ export const IMAGES = {
   sub6_1, sub6_2, sub6_3, sub6_4, sub6_5, sub6_6, sub6_7, sub6_8, sub6_9, sub6_10,
   sub7_1, sub7_2, sub7_3, sub7_4, sub7_5, sub7_6, sub7_7, sub7_8, sub7_9, sub7_10, sub7_11,
   sub8_1, sub8_2, sub8_3, sub8_4, sub8_5, sub8_6,
-    
+  sub9_1, sub9_2,
+  sub10_1, sub10_2, sub10_3, sub10_4, sub10_5, sub10_6,
+  
 };
