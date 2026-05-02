@@ -51,7 +51,19 @@ import sub4_2 from './4-2.png';
 import sub4_3 from './4-3.png';
 import sub4_4 from './4-4.png';
 import sub4_5 from './4-5.png';
-
+import sub5_1 from './5-1.png';
+import sub5_2 from './5-2.png';
+import sub5_3 from './5-3.png';
+import sub5_4 from './5-4.png';
+import sub5_5 from './5-5.png';
+import sub5_6 from './5-6.png';
+import sub5_7 from './5-7.png';
+import sub5_8 from './5-8.png';
+import sub5_9 from './5-9.png';
+import sub5_10 from './5-10.png';
+import sub5_11 from './5-11.png';
+import sub5_12 from './5-12.png';
+import sub5_13 from './5-13.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
@@ -60,5 +72,5 @@ export const IMAGES = {
   sub2_1, sub2_2, sub2_3, sub2_4, sub2_5, sub2_6, sub2_7, sub2_8, sub2_9, sub2_10, sub2_11, sub2_12,
   sub3_1, sub3_2, sub3_3, sub3_4, sub3_5, sub3_6, sub3_7, sub3_8, sub3_9, sub3_10, sub3_11, sub3_12, sub3_13,
   sub4_1, sub4_2, sub4_3, sub4_4, sub4_5,
-  
+  sub5_1, sub5_2, sub5_3, sub5_4, sub5_5, sub5_6, sub5_7, sub5_8, sub5_9, sub5_10, sub5_11, sub5_12, sub5_13,  
 };
