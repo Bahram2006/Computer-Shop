@@ -28,19 +28,35 @@ const Hero = () => {
         { id: 212, name: "Ses kartalary", img: IMAGES.sub2_12 }
       ]
     },
-    { id: 3, name: "PERIFERIÝALAR", img: IMAGES.cat3, subItems: [{id: 301, name: "Mouslar", img: IMAGES.sub3_1}, {id: 302, name: "Klawiaturalar", img: IMAGES.sub3_2}] },
-    { id: 4, name: "TOPLAÝYÝLAR", img: IMAGES.cat4, subItems: [{id: 401, name: "USB Fleshler", img: IMAGES.sub4_1}] },
-    { id: 5, name: "MONOBLOK WE PK", img: IMAGES.cat5, subItems: [{id: 501, name: "Monobloklar", img: IMAGES.sub5_1}] },
-    { id: 6, name: "NOUTBUKLAR", img: IMAGES.cat6, subItems: [{id: 601, name: "Noutbuklar", img: IMAGES.sub6_1}] },
-    { id: 7, name: "MOBIL PERIFERIÝALARY", img: IMAGES.cat7, subItems: [{id: 701, name: "Zarýad berijiler", img: IMAGES.sub7_1}] },
-    { id: 8, name: "PRINTERLER", img: IMAGES.cat8, subItems: [{id: 801, name: "Printerler", img: IMAGES.sub8_1}] },
-    { id: 9, name: "TOR ENJAMLARY", img: IMAGES.cat9, subItems: [{id: 901, name: "Routerler", img: IMAGES.sub9_1}] },
-    { id: 10, name: "HOWPSUZLYK", img: IMAGES.cat10, subItems: [{id: 1001, name: "Kameralar", img: IMAGES.sub10_1}] },
-    { id: 11, name: "ÖÝ ENJAMLARY", img: IMAGES.cat11, subItems: [{id: 1101, name: "Öý enjamlary", img: IMAGES.sub11_1}] },
-    { id: 12, name: "OYUNLARY", img: IMAGES.cat12, subItems: [{id: 1201, name: "Playstation", img: IMAGES.sub12_1}] },
-    { id: 13, name: "AKSESUARLAR", img: IMAGES.cat13, subItems: [{id: 1301, name: "Sumkalar", img: IMAGES.sub13_1}] },
-    { id: 14, name: "PROGRAMMALAR", img: IMAGES.cat14, subItems: [{id: 1401, name: "Windows", img: IMAGES.sub14_1}] },
-    { id: 15, name: "BEÝLEKILER", img: IMAGES.cat15, subItems: [{id: 1501, name: "Beýlekiler", img: IMAGES.sub15_1}] },
+    {
+      id: 3, name: "Periferiyalar", img: IMAGES.cat3,
+      subItems: [
+        { id: 301, name: "Esbaplar periferiya ucin", img: IMAGES.sub3_1 },
+        { id: 302, name: "Kompyuter sycanjygy", img: IMAGES.sub3_2 },
+        { id: 303, name: "Klawiaturalar", img: IMAGES.sub3_3 },
+        { id: 304, name: "Sycanjyk ucin halycalar", img: IMAGES.sub3_4 },
+        { id: 305, name: "Gulaklyklar", img: IMAGES.sub3_5 },
+        { id: 306, name: "Kolonkalar we saundbarlar", img: IMAGES.sub3_6 },
+        { id: 307, name: "Portatiw kolonkalary", img: IMAGES.sub3_7 },
+        { id: 308, name: "WEB kamera", img: IMAGES.sub3_8 },
+        { id: 309, name: "Mikrofonlar", img: IMAGES.sub3_9 },
+        { id: 310, name: "Oyun konsollary we esbaplar", img: IMAGES.sub3_10 },
+        { id: 311, name: "Oyun ucin kontrollerler", img: IMAGES.sub3_11 },
+        { id: 312, name: "Wideo oyunlary", img: IMAGES.sub3_12 },
+        { id: 313, name: "Dok stansiyalar we hublar", img: IMAGES.sub3_13 },
+      ]
+    },
+    {
+      id: 4, name: "Toplayjylar", img: IMAGES.cat4,
+      subItems: [
+        { id: 401, name: "Dasky gaty diskler", img: IMAGES.sub4_1 },
+        { id: 401, name: "Gaty diskler ucin stansiyalar we korpuslar", img: IMAGES.sub4_2 },
+        { id: 401, name: "Fles toplayjy (USB)", img: IMAGES.sub4_3 },
+        { id: 401, name: "Yat karty (SD)", img: IMAGES.sub4_4 },
+        { id: 401, name: "Kartriderler", img: IMAGES.sub4_5 },
+      ]
+    }
+  
   ];
 
   return (
