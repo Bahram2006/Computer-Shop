@@ -64,6 +64,33 @@ import sub5_10 from './5-10.png';
 import sub5_11 from './5-11.png';
 import sub5_12 from './5-12.png';
 import sub5_13 from './5-13.png';
+import sub6_1 from './6-1.png';
+import sub6_2 from './6-2.png';
+import sub6_3 from './6-3.png';
+import sub6_4 from './6-4.png';
+import sub6_5 from './6-5.png';
+import sub6_6 from './6-6.png';
+import sub6_7 from './6-7.png';
+import sub6_8 from './6-8.png';
+import sub6_9 from './6-9.png';
+import sub6_10 from './6-10.png';
+import sub7_1 from './7-1.png';
+import sub7_2 from './7-2.png';
+import sub7_3 from './7-3.png';
+import sub7_4 from './7-4.png';
+import sub7_5 from './7-5.png';
+import sub7_6 from './7-6.png';
+import sub7_7 from './7-7.png';
+import sub7_8 from './7-8.png';
+import sub7_9 from './7-9.png';
+import sub7_10 from './7-10.png';
+import sub7_11 from './7-11.png';
+import sub8_1 from './8-1.png';
+import sub8_2 from './8-2.png';
+import sub8_3 from './8-3.png';
+import sub8_4 from './8-4.png';
+import sub8_5 from './8-5.png';
+import sub8_6 from './8-6.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
@@ -73,4 +100,8 @@ export const IMAGES = {
   sub3_1, sub3_2, sub3_3, sub3_4, sub3_5, sub3_6, sub3_7, sub3_8, sub3_9, sub3_10, sub3_11, sub3_12, sub3_13,
   sub4_1, sub4_2, sub4_3, sub4_4, sub4_5,
   sub5_1, sub5_2, sub5_3, sub5_4, sub5_5, sub5_6, sub5_7, sub5_8, sub5_9, sub5_10, sub5_11, sub5_12, sub5_13,  
+  sub6_1, sub6_2, sub6_3, sub6_4, sub6_5, sub6_6, sub6_7, sub6_8, sub6_9, sub6_10,
+  sub7_1, sub7_2, sub7_3, sub7_4, sub7_5, sub7_6, sub7_7, sub7_8, sub7_9, sub7_10, sub7_11,
+  sub8_1, sub8_2, sub8_3, sub8_4, sub8_5, sub8_6,
+    
 };
