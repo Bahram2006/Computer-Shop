@@ -99,6 +99,29 @@ import sub10_3 from './10-3.png';
 import sub10_4 from './10-4.png';
 import sub10_5 from './10-5.png';
 import sub10_6 from './10-6.png';
+import sub11_1 from './11-1.png';
+import sub11_2 from './11-2.png';
+import sub11_3 from './11-3.png';
+import sub11_4 from './11-4.png';
+import sub12_1 from './12-1.png';
+import sub12_2 from './12-2.png';
+import sub13_1 from './13-1.png';
+import sub13_2 from './13-2.png';
+import sub13_3 from './13-3.png';
+import sub13_4 from './13-4.png';
+import sub13_5 from './13-5.png';
+import sub13_6 from './13-6.png';
+import sub13_7 from './13-7.png';
+import sub13_8 from './13-8.png';
+import sub13_9 from './13-9.png';
+import sub13_10 from './13-10.png';
+import sub13_11 from './13-11.png';
+import sub13_12 from './13-12.png';
+import sub13_13 from './13-13.png';
+import sub13_14 from './13-14.png';
+import sub13_15 from './13-15.png';
+import sub13_16 from './13-16.png';
+import sub13_17 from './13-17.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
@@ -113,5 +136,8 @@ export const IMAGES = {
   sub8_1, sub8_2, sub8_3, sub8_4, sub8_5, sub8_6,
   sub9_1, sub9_2,
   sub10_1, sub10_2, sub10_3, sub10_4, sub10_5, sub10_6,
-  
+  sub11_1, sub11_2, sub11_3, sub11_4,
+  sub12_1, sub12_2,
+  sub13_1, sub13_2, sub13_3, sub13_4, sub13_5, sub13_6, sub13_7, sub13_8, sub13_9, sub13_10, sub13_11, sub13_12, sub13_13, sub13_14, sub13_15, sub13_16, sub13_17,
+    
 };
