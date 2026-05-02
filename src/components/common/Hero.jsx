@@ -1,4 +1,3 @@
-import React from 'react';
 import { FiMenu, FiChevronRight } from "react-icons/fi";
 
 const Hero = () => {
