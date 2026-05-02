@@ -55,6 +55,24 @@ const Hero = () => {
         { id: 401, name: "Yat karty (SD)", img: IMAGES.sub4_4 },
         { id: 401, name: "Kartriderler", img: IMAGES.sub4_5 },
       ]
+    },
+    {
+      id: 5, name: "Monoblok we PK", img: IMAGES.cat5,
+      subItems: [
+        { id: 501, name: "", img: IMAGES.sub5_1 },
+        { id: 502, name: "", img: IMAGES.sub5_2 },
+        { id: 503, name: "", img: IMAGES.sub5_3 },
+        { id: 504, name: "", img: IMAGES.sub5_4 },
+        { id: 505, name: "", img: IMAGES.sub5_5 },
+        { id: 506, name: "", img: IMAGES.sub5_6 },
+        { id: 507, name: "", img: IMAGES.sub5_7 },
+        { id: 508, name: "", img: IMAGES.sub5_8 },
+        { id: 509, name: "", img: IMAGES.sub5_9 },
+        { id: 510, name: "", img: IMAGES.sub5_10 },
+        { id: 511, name: "", img: IMAGES.sub5_11 },
+        { id: 512, name: "", img: IMAGES.sub5_12 },
+        { id: 513, name: "", img: IMAGES.sub5_13 },
+      ]
     }
   
   ];
