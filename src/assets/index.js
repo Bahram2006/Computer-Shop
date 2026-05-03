@@ -16,6 +16,8 @@ import cat12 from './12.png';
 import cat13 from './13.png';
 import cat14 from './14.png';
 import cat15 from './15.png';
+import cat16 from './16.png';
+
 
 // Kiçi kategoriýalar (1-1, 1-2, 2-1...)
 import sub1_2 from './1-2.png';
@@ -143,7 +145,7 @@ import sub15_11 from './15-11.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
-  cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12, cat13, cat14, cat15,
+  cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12, cat13, cat14, cat15, cat16,
   sub1_2, sub1_3,
   sub2_1, sub2_2, sub2_3, sub2_4, sub2_5, sub2_6, sub2_7, sub2_8, sub2_9, sub2_10, sub2_11, sub2_12,
   sub3_1, sub3_2, sub3_3, sub3_4, sub3_5, sub3_6, sub3_7, sub3_8, sub3_9, sub3_10, sub3_11, sub3_12, sub3_13,
