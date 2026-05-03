@@ -92,7 +92,22 @@ const Hero = () => {
         { id: 709, name: "Arassalayjy serisdeler", img: IMAGES.sub7_9 },
         { id: 710, name: "Durli mobil pereferiyalary", img: IMAGES.sub7_10 },
       ]
-    }
+    },
+    {
+      id: 8, name: "PRINTERLER WE BEYLEKILER", img: IMAGES.cat8,
+      subItems: [
+        { id: 801, name: "Lazer printerler", img: IMAGES.sub8_1 },
+        { id: 802, name: "Injekt printerler", img: IMAGES.sub8_2 },
+        { id: 803, name: "Kopiya aparatlary", img: IMAGES.sub8_3 },
+        { id: 804, name: "Skanerler", img: IMAGES.sub8_4 },
+        { id: 805, name: "Oy we ofis ucin telefonlar", img: IMAGES.sub8_5 },
+        { id: 806, name: "Proyektorlar we duzujiler", img: IMAGES.sub8_6 },
+        { id: 807, name: "Kagyz uweyji", img: IMAGES.sub8_7 },
+        { id: 808, name: "Laminatorlar", img: IMAGES.sub8_8 },
+        { id: 809, name: "Kanselyariya", img: IMAGES.sub8_9 },
+        { id: 810, name: "Sarp edilyan harytlar", img: IMAGES.sub8_10 },
+      ]
+    },
   
   ];
 
