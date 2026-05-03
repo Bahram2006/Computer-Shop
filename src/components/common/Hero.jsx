@@ -347,28 +347,28 @@ const Hero = () => {
 
         {/* Aşaky 4 sany hakyky Banner */}
         <div className="grid grid-cols-4 gap-4">
-          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+          <div className="w-[286px] h-[286px] bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
             <img
               src={IMAGES.banner2}
               alt="Banner 2"
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
-          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+          <div className="w-[286px] h-[286px] bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
             <img
               src={IMAGES.banner3}
               alt="Banner 3"
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
-          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+          <div className="w-[286px] h-[286px] bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
             <img
               src={IMAGES.banner4}
               alt="Banner 4"
               className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
             />
           </div>
-          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+          <div className="w-[286px] h-[286px] bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
             <img
               src={IMAGES.banner5}
               alt="Banner 5"
