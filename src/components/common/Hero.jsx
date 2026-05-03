@@ -66,16 +66,16 @@ const Hero = () => {
     {
       id: 6, name: "Noutbuklar we beylekiler", img: IMAGES.cat6,
       subItems: [
-        { id: 601, name: "Noutbuklar", img: IMAGES.sub5_3 },
-        { id: 602, name: "Sumkalar we ryukzaklar", img: IMAGES.sub5_3 },
-        { id: 603, name: "Stendler we esbaplar", img: IMAGES.sub5_4 },
-        { id: 604, name: "Batareyler", img: IMAGES.sub5_5 },
-        { id: 605, name: "Zaryad berijiler", img: IMAGES.sub5_6 },
-        { id: 606, name: "Yadyn moduly", img: IMAGES.sub5_7 },
-        { id: 607, name: "Optiki toplayjylar DWD RW", img: IMAGES.sub5_8 },
-        { id: 608, name: "Ekranlar", img: IMAGES.sub5_9 },
-        { id: 609, name: "Klawiaturalar", img: IMAGES.sub5_10 },
-        { id: 610, name: "Klawiatura ucin nakleykalar", img: IMAGES.sub5_11 },
+        { id: 601, name: "Noutbuklar", img: IMAGES.sub6_1 },
+        { id: 602, name: "Sumkalar we ryukzaklar", img: IMAGES.sub6_2 },
+        { id: 603, name: "Stendler we esbaplar", img: IMAGES.sub6_3 },
+        { id: 604, name: "Batareyler", img: IMAGES.sub6_4 },
+        { id: 605, name: "Zaryad berijiler", img: IMAGES.sub6_5 },
+        { id: 606, name: "Yadyn moduly", img: IMAGES.sub6_6 },
+        { id: 607, name: "Optiki toplayjylar DWD RW", img: IMAGES.sub6_7 },
+        { id: 608, name: "Ekranlar", img: IMAGES.sub6_8 },
+        { id: 609, name: "Klawiaturalar", img: IMAGES.sub6_9 },
+        { id: 610, name: "Klawiatura ucin nakleykalar", img: IMAGES.sub6_10 },
       ]
     }
   
