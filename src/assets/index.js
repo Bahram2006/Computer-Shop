@@ -1,5 +1,29 @@
 // src/assets/index.js
 
+// Footer ucin slider suratlry
+import slider1 from './Footer_sliders/slider_1.png'; 
+import slider2 from './Footer_sliders/slider_2.png'; 
+import slider3 from './Footer_sliders/slider_3.png'; 
+import slider4 from './Footer_sliders/slider_4.png'; 
+import slider5 from './Footer_sliders/slider_5.png'; 
+import slider6 from './Footer_sliders/slider_6.png'; 
+import slider7 from './Footer_sliders/slider_7.png'; 
+import slider8 from './Footer_sliders/slider_8.png'; 
+import slider9 from './Footer_sliders/slider_9.png'; 
+import slider10 from './Footer_sliders/slider_10.png'; 
+import slider11 from './Footer_sliders/slider_11.png'; 
+import slider12 from './Footer_sliders/slider_12.png'; 
+import slider13 from './Footer_sliders/slider_13.png'; 
+import slider14 from './Footer_sliders/slider_14.png'; 
+import slider15 from './Footer_sliders/slider_15.png'; 
+import slider16 from './Footer_sliders/slider_16.png'; 
+import slider17 from './Footer_sliders/slider_17.png'; 
+import slider18 from './Footer_sliders/slider_18.png'; 
+import slider19 from './Footer_sliders/slider_19.png'; 
+import slider20 from './Footer_sliders/slider_20.png'; 
+
+
+
 // Bannerleriň dogry ýoly (Banners papgasynyň içinden)
 import banner1 from './Banners/Banner_1.webp'; // Skrinşotda .webp görýärin
 import banner2 from './Banners/Banner_2.jpg';
@@ -158,6 +182,8 @@ import sub16_11 from './16-11.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
+  // Footer slider ucin suratlar
+  slider1, slider2, slider3, slider4, slider5, slider6, slider7, slider8, slider9, slider10, slider11, slider12, slider13, slider14, slider15, slider16, slider17, slider18, slider19, slider20,
    // Bannerler bölümi
   banner1, banner2, banner3, banner4, banner5,
   banner6, banner7, banner8, banner9, banner10,
