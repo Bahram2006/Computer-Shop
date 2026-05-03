@@ -189,6 +189,22 @@ const Hero = () => {
         { id: 159, name: "Gozellik we saglyk ucin", img: IMAGES.sub15_9 },
       ]
     },
+    {
+      id: 16, name: "BASGALAR", img: IMAGES.cat16,
+      subItems: [
+        { id: 161, name: "Lityum batareyler", img: IMAGES.sub16_1 },
+        { id: 162, name: "Elcyralar", img: IMAGES.sub16_2 },
+        { id: 163, name: "Kabeller", img: IMAGES.sub16_3 },
+        { id: 164, name: "Audio kabeller we gecirijiler", img: IMAGES.sub16_4 },
+        { id: 165, name: "Wideo kabeller we gecirijiler", img: IMAGES.sub16_5 },
+        { id: 166, name: "Kabel-tertilemesi", img: IMAGES.sub16_6 },
+        { id: 167, name: "Adapterler we konwerterler", img: IMAGES.sub16_7 },
+        { id: 168, name: "Splitterler we swicler", img: IMAGES.sub16_8 },
+        { id: 169, name: "Elektrik uzldyjylar we rozetkalar", img: IMAGES.sub16_9 },
+        { id: 169, name: "Gurallar", img: IMAGES.sub16_10 },
+        { id: 169, name: "Basgalar", img: IMAGES.sub16_11 },
+      ]
+    },
   
   ];
 
