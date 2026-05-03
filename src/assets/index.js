@@ -1,5 +1,18 @@
 // src/assets/index.js
 
+// Bannerleriň dogry ýoly (Banners papgasynyň içinden)
+import banner1 from './Banners/Banner_1.webp'; // Skrinşotda .webp görýärin
+import banner2 from './Banners/Banner_2.jpg';
+import banner3 from './Banners/Banner_3.jpg';
+import banner4 from './Banners/Banner_4.jpg';
+import banner5 from './Banners/Banner_5.jpg';
+import banner6 from './Banners/Banner_6.jpg';
+import banner7 from './Banners/Banner_7.jpg';
+import banner8 from './Banners/Banner_8.jpg';
+import banner9 from './Banners/Banner_9.jpg';
+import banner10 from './Banners/Banner_10.jpg';
+
+
 // Esasy kategoriýalar (1, 2, 3...)
 import cat1 from './1.png';
 import cat2 from './2.png';
@@ -145,6 +158,9 @@ import sub16_11 from './16-11.png';
 
 // Ählisini bir obýektiň içinde daşary eksport edýäris
 export const IMAGES = {
+   // Bannerler bölümi
+  banner1, banner2, banner3, banner4, banner5,
+  banner6, banner7, banner8, banner9, banner10,
   cat1, cat2, cat3, cat4, cat5, cat6, cat7, cat8, cat9, cat10, cat11, cat12, cat13, cat14, cat15, cat16,
   sub1_2, sub1_3,
   sub2_1, sub2_2, sub2_3, sub2_4, sub2_5, sub2_6, sub2_7, sub2_8, sub2_9, sub2_10, sub2_11, sub2_12,
@@ -161,5 +177,5 @@ export const IMAGES = {
   sub13_1, sub13_2,
   sub14_1, sub14_2, sub14_3, sub14_4, sub14_5, sub14_6, sub14_7, sub14_8, sub14_9, sub14_10, sub14_11, sub14_12, sub14_13, sub14_14, sub14_15, sub14_16, sub14_17,
   sub15_1, sub15_2, sub15_3, sub15_4, sub15_5, sub15_6, sub15_7, sub15_8, sub15_9,
-  sub16_1, sub16_2, sub16_3, sub16_4, sub16_5, sub16_6, sub16_7, sub16_8, sub16_9, sub16_10, sub16_11,
+  sub16_1, sub16_2, sub16_3, sub16_4, sub16_5, sub16_6, sub16_7, sub16_8, sub16_9, sub16_10, sub16_11,  
 };
