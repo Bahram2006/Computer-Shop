@@ -122,8 +122,71 @@ const Hero = () => {
     {
       id: 10, name: "HOWPSUZLYK ULGAMY", img: IMAGES.cat10,
       subItems: [
-        { id: 901, name: "Gozegcilik kameralary", img: IMAGES.sub10_1 },
-        { id: 902, name: "Elektron gulplar", img: IMAGES.sub10_2 },
+        { id: 101, name: "Gozegcilik kameralary", img: IMAGES.sub10_1 },
+        { id: 102, name: "Elektron gulplar", img: IMAGES.sub10_2 },
+      ]
+    },
+    {
+      id: 11, name: "AWTOMATIZASIYA", img: IMAGES.cat11,
+      subItems: [
+        { id: 111, name: "POS kompyuterleri we beylekiler", img: IMAGES.sub11_1 },
+        { id: 112, name: "Barkod we cek printerler", img: IMAGES.sub11_2 },
+        { id: 113, name: "Barkod skanerleri", img: IMAGES.sub11_3 },
+        { id: 114, name: "Pul sanayjylar", img: IMAGES.sub11_4 },
+        { id: 115, name: "Pul gutusy", img: IMAGES.sub11_5 },
+        { id: 116, name: "Sarp edilyan harytlar", img: IMAGES.sub11_6 },
+      ]
+    },
+    {
+      id: 12, name: "TOK SAZLAYJYLAR WE UPS", img: IMAGES.cat12,
+      subItems: [
+        { id: 121, name: "UPS", img: IMAGES.sub12_1 },
+        { id: 122, name: "Tok sazlayjylar", img: IMAGES.sub12_2 },
+        { id: 123, name: "UPS ucin batareyler", img: IMAGES.sub12_3 },
+        { id: 124, name: "UPS ucin beylekiler", img: IMAGES.sub12_4 },
+      ]
+    },
+    {
+      id: 13, name: "MEBELLER", img: IMAGES.cat13,
+      subItems: [
+        { id: 131, name: "Kompyuter kreslolary", img: IMAGES.sub13_1 },
+        { id: 132, name: "Kompyuter stollary", img: IMAGES.sub13_2 },
+      ]
+    },
+    {
+      id: 14, name: "HOJALYK HARYTLARY", img: IMAGES.cat14,
+      subItems: [
+        { id: 141, name: "Oy ucin atributlar", img: IMAGES.sub14_1 },
+        { id: 142, name: "Telewizorlar", img: IMAGES.sub14_2 },
+        { id: 143, name: "TW-pristawkalr hem tyunerler", img: IMAGES.sub14_3 },
+        { id: 144, name: "Pylesoslar", img: IMAGES.sub14_4 },
+        { id: 145, name: "Utukler we bugly utukler", img: IMAGES.sub14_5 },
+        { id: 146, name: "Howa nemlendirijiler we arassalayjylar", img: IMAGES.sub14_6 },
+        { id: 147, name: "Yyladys enjamlary", img: IMAGES.sub14_7 },
+        { id: 148, name: "Ashana enjamalry we esbaplary", img: IMAGES.sub14_8 },
+        { id: 149, name: "Ashana gap-gaclary", img: IMAGES.sub14_9 },
+        { id: 1410, name: "Caynekler", img: IMAGES.sub14_10 },
+        { id: 1411, name: "Kofe masynlary", img: IMAGES.sub14_11 },
+        { id: 1412, name: "Tosterler", img: IMAGES.sub14_12 },
+        { id: 1413, name: "Miwe sykyjylar", img: IMAGES.sub14_13 },
+        { id: 1414, name: "Blenderler", img: IMAGES.sub14_14 },
+        { id: 1415, name: "Et uweyji", img: IMAGES.sub14_15 },
+        { id: 1416, name: "Terezi", img: IMAGES.sub14_16 },
+        { id: 1417, name: "Howa sowadyjy", img: IMAGES.sub14_17 },
+      ]
+    },
+    {
+      id: 15, name: "GOZELLIK WE SAGLYK", img: IMAGES.cat15,
+      subItems: [
+        { id: 151, name: "Aynek", img: IMAGES.sub15_1 },
+        { id: 152, name: "Fenlar", img: IMAGES.sub15_2 },
+        { id: 153, name: "Ploykalar we goneldijiler", img: IMAGES.sub15_3 },
+        { id: 154, name: "Dis cotgalary we irregatorlar", img: IMAGES.sub15_4 },
+        { id: 155, name: "Elektrobritwalar", img: IMAGES.sub15_5 },
+        { id: 156, name: "Sac kesmek we trimmer", img: IMAGES.sub15_6 },
+        { id: 157, name: "Massajorlar", img: IMAGES.sub15_7 },
+        { id: 158, name: "Elektrik skuterler", img: IMAGES.sub15_8 },
+        { id: 159, name: "Gozellik we saglyk ucin", img: IMAGES.sub15_9 },
       ]
     },
   
