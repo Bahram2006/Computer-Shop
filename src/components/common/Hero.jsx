@@ -1,5 +1,6 @@
 import { FiMenu, FiChevronRight } from "react-icons/fi";
 import { IMAGES } from "../../assets"; // Ähli suratlary bir obýektden alýarys
+import MainSlider from "./MainSlider";
 
 const Hero = () => {
   // Kategoriýa maglumatlarynyň sanawy
@@ -340,26 +341,40 @@ const Hero = () => {
 
       {/* 2. SAG TARAP: SLIDER MEÝDANÇASY (Değişmedi) */}
       {/* 2. SAG TARAP: SLIDER MEÝDANÇASY */}
-      <div className="flex-1 flex flex-col gap-4">
-        <div className="w-full h-[480px] bg-white rounded-md border border-gray-200 shadow-sm flex items-center justify-center relative overflow-hidden group">
-          <div className="absolute inset-0 bg-gray-50 animate-pulse group-hover:hidden"></div>
-          <p className="text-gray-400 font-bold italic z-10 text-sm">
-            Slider Bölümi (Tizden...)
-          </p>
-        </div>
+      <div className="flex-1 flex flex-col gap-4 overflow-hidden">
+        {/* Esasy Typýan Slider */}
+        <MainSlider />
 
-        {/* Bannerlar Bölümi - Indi ýalňyşsyz */}
+        {/* Aşaky 4 sany hakyky Banner */}
         <div className="grid grid-cols-4 gap-4">
-          {[1, 2, 3, 4].map((i) => (
-            <div
-              key={i}
-              className="h-36 bg-white rounded-md border border-gray-200 hover:shadow-lg transition-all cursor-pointer flex items-center justify-center"
-            >
-              <span className="text-[10px] text-gray-300 font-bold">
-                BANNER {i}
-              </span>
-            </div>
-          ))}
+          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+            <img
+              src={IMAGES.banner2}
+              alt="Banner 2"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+            <img
+              src={IMAGES.banner3}
+              alt="Banner 3"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+            <img
+              src={IMAGES.banner4}
+              alt="Banner 4"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
+          <div className="h-40 bg-white rounded-md border border-gray-200 overflow-hidden cursor-pointer hover:shadow-lg transition-all group">
+            <img
+              src={IMAGES.banner5}
+              alt="Banner 5"
+              className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+            />
+          </div>
         </div>
       </div>
     </section>
