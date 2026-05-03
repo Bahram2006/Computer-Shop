@@ -267,19 +267,22 @@ const Hero = () => {
     <section className="max-w-[1400px] mx-auto px-4 py-6 flex gap-6">
       {/* 1. SOL TARAP: KATEGORIÝA MENÝUSY */}
       <aside className="w-72 hidden xl:block flex-shrink-0 group/sidebar">
-        <div className="bg-[#d32f2f] text-white flex items-center gap-3 px-4 py-3 rounded-t-md font-bold text-[13px] uppercase tracking-wider">
+        {/* Menü Başlığı */}
+        <div className="bg-[#d32f2f] text-white flex items-center gap-3 px-4 py-3 rounded-t-md font-bold text-[13px] uppercase tracking-wider shadow-sm">
           <FiMenu size={20} /> ÄHLI HARYTLAR
         </div>
 
-        <ul className="bg-white border border-gray-200 border-t-0 rounded-b-md shadow-sm">
+        {/* Ana Liste Border ve Gölge */}
+        <ul className="bg-white border-x border-b border-gray-200 rounded-b-md shadow-md">
           {categories.map((cat) => (
-            /* ÜNS BER: Bu ýere 'relative' goşdyk, şonda mega menýu şu setiriň deňinden açylar */
             <li
               key={cat.id}
-              className="relative group flex items-center justify-between px-4 py-2 border-b border-gray-50 hover:bg-gray-50 cursor-pointer transition-all"
+              className="relative group flex items-center justify-between px-4 py-2.5 
+                         border-b border-gray-100 last:border-b-0 // <-- Her satır arasına ince çizgi
+                         hover:bg-gray-50 cursor-pointer transition-all"
             >
               <div className="flex items-center gap-3">
-                <div className="w-10 h-10 flex items-center justify-center p-1">
+                <div className="w-9 h-9 flex items-center justify-center p-1">
                   <img
                     src={cat.img}
                     alt={cat.name}
@@ -291,31 +294,38 @@ const Hero = () => {
                 </span>
               </div>
               <FiChevronRight
-                className="text-gray-300 group-hover:text-[#d32f2f]"
-                size={16}
+                className="text-gray-400 group-hover:text-[#d32f2f]"
+                size={14}
               />
 
-              {/* MEGA MENU (Açylýan 2-nji List) */}
+              {/* 2. MEGA MENU (Alt Liste) */}
               {cat.subItems && cat.subItems.length > 0 && (
-                /* ÜNS BER: 'top-[-1px]' edip üýtgetdik, şonda setir bilen birme-bir deňleşer */
-                <div className="invisible group-hover:visible opacity-0 group-hover:opacity-100 absolute left-[100%] top-[-1px] w-[450px] bg-white border border-gray-200 shadow-2xl z-50 p-4 transition-all duration-200 rounded-r-lg overflow-y-auto max-h-[500px]">
-                  <h3 className="text-[#d32f2f] font-black text-[11px] mb-4 border-b pb-2 uppercase tracking-widest">
+                <div
+                  className="invisible group-hover:visible opacity-0 group-hover:opacity-100 
+                                absolute left-[100%] top-[-1px] w-[450px] bg-white 
+                                border border-gray-200 shadow-2xl z-50 p-4 // <-- Dış çerçeve çizgisi
+                                transition-all duration-200 rounded-r-lg"
+                >
+                  <h3 className="text-[#d32f2f] font-black text-[11px] mb-4 border-b border-gray-200 pb-2 uppercase tracking-widest">
                     {cat.name}
                   </h3>
-                  <div className="grid grid-cols-1 gap-1">
+
+                  <div className="flex flex-col">
                     {cat.subItems.map((sub) => (
                       <div
                         key={sub.id}
-                        className="flex items-center gap-4 p-2 hover:bg-gray-100 rounded-md transition-colors group/item"
+                        className="flex items-center gap-4 p-2.5 
+                                   border-b border-gray-50 last:border-b-0 // <-- Alt liste satır çizgileri
+                                   hover:bg-gray-50 rounded-sm transition-colors group/item"
                       >
-                        <div className="w-12 h-12 flex-shrink-0 border border-gray-100 rounded p-1 bg-white shadow-sm">
+                        <div className="w-11 h-11 flex-shrink-0 border border-gray-100 rounded-md p-1 bg-white shadow-sm transition-transform group-hover/item:scale-105">
                           <img
                             src={sub.img}
                             alt={sub.name}
                             className="w-full h-full object-contain"
                           />
                         </div>
-                        <span className="text-[12px] font-bold text-gray-600 group-hover/item:text-[#d32f2f]">
+                        <span className="text-[12px] font-bold text-gray-600 group-hover/item:text-[#d32f2f] transition-colors">
                           {sub.name}
                         </span>
                       </div>
@@ -328,21 +338,27 @@ const Hero = () => {
         </ul>
       </aside>
 
-      {/* 2. SAG TARAP: SLIDER MEÝDANÇASY (Üýtgemedi) */}
+      {/* 2. SAG TARAP: SLIDER MEÝDANÇASY (Değişmedi) */}
+      {/* 2. SAG TARAP: SLIDER MEÝDANÇASY */}
       <div className="flex-1 flex flex-col gap-4">
         <div className="w-full h-[480px] bg-white rounded-md border border-gray-200 shadow-sm flex items-center justify-center relative overflow-hidden group">
           <div className="absolute inset-0 bg-gray-50 animate-pulse group-hover:hidden"></div>
-          <p className="text-gray-400 font-bold italic z-10">
+          <p className="text-gray-400 font-bold italic z-10 text-sm">
             Slider Bölümi (Tizden...)
           </p>
         </div>
 
+        {/* Bannerlar Bölümi - Indi ýalňyşsyz */}
         <div className="grid grid-cols-4 gap-4">
           {[1, 2, 3, 4].map((i) => (
             <div
               key={i}
-              className="h-36 bg-white rounded border border-gray-200 hover:shadow-lg transition-all cursor-pointer"
-            ></div>
+              className="h-36 bg-white rounded-md border border-gray-200 hover:shadow-lg transition-all cursor-pointer flex items-center justify-center"
+            >
+              <span className="text-[10px] text-gray-300 font-bold">
+                BANNER {i}
+              </span>
+            </div>
           ))}
         </div>
       </div>
