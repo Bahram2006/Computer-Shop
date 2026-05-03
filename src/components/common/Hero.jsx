@@ -108,6 +108,17 @@ const Hero = () => {
         { id: 810, name: "Sarp edilyan harytlar", img: IMAGES.sub8_10 },
       ]
     },
+    {
+      id: 9, name: "TOR ENJAMLARY", img: IMAGES.cat9,
+      subItems: [
+        { id: 901, name: "Routerler", img: IMAGES.sub9_1 },
+        { id: 902, name: "Simisz guyclendirijiler", img: IMAGES.sub9_2 },
+        { id: 903, name: "Tor adapteri we platalar", img: IMAGES.sub9_3 },
+        { id: 904, name: "Swicler, konwerterler we beylekiler", img: IMAGES.sub9_4 },
+        { id: 905, name: "Tor kabeli", img: IMAGES.sub9_5 },
+        { id: 906, name: "Testerler we gurallar", img: IMAGES.sub9_6 },
+      ]
+    },
   
   ];
 
