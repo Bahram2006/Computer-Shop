@@ -119,6 +119,13 @@ const Hero = () => {
         { id: 906, name: "Testerler we gurallar", img: IMAGES.sub9_6 },
       ]
     },
+    {
+      id: 10, name: "HOWPSUZLYK ULGAMY", img: IMAGES.cat10,
+      subItems: [
+        { id: 901, name: "Gozegcilik kameralary", img: IMAGES.sub10_1 },
+        { id: 902, name: "Elektron gulplar", img: IMAGES.sub10_2 },
+      ]
+    },
   
   ];
 
