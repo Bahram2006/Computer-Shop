@@ -77,6 +77,21 @@ const Hero = () => {
         { id: 609, name: "Klawiaturalar", img: IMAGES.sub6_9 },
         { id: 610, name: "Klawiatura ucin nakleykalar", img: IMAGES.sub6_10 },
       ]
+    },
+    {
+      id: 7, name: "MOBIL PERIFERIYALARY", img: IMAGES.cat7,
+      subItems: [
+        { id: 701, name: "Plansetler", img: IMAGES.sub7_1 },
+        { id: 702, name: "Smart sagatlar", img: IMAGES.sub7_2 },
+        { id: 703, name: "Telefon ucin zaryad berijiler", img: IMAGES.sub7_3 },
+        { id: 704, name: "Telefon ucin kabeller", img: IMAGES.sub7_4 },
+        { id: 705, name: "Portatiw batareyler", img: IMAGES.sub7_5 },
+        { id: 706, name: "Podstawkalar we saklayjylar", img: IMAGES.sub7_6 },
+        { id: 707, name: "Awtoulaglar ucin wideoregistratorlar", img: IMAGES.sub7_7 },
+        { id: 708, name: "Sumkalar we keysler", img: IMAGES.sub7_8 },
+        { id: 709, name: "Arassalayjy serisdeler", img: IMAGES.sub7_9 },
+        { id: 710, name: "Durli mobil pereferiyalary", img: IMAGES.sub7_10 },
+      ]
     }
   
   ];
