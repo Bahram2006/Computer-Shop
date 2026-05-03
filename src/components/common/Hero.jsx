@@ -59,19 +59,23 @@ const Hero = () => {
     {
       id: 5, name: "Monoblok we PK", img: IMAGES.cat5,
       subItems: [
-        { id: 501, name: "", img: IMAGES.sub5_1 },
-        { id: 502, name: "", img: IMAGES.sub5_2 },
-        { id: 503, name: "", img: IMAGES.sub5_3 },
-        { id: 504, name: "", img: IMAGES.sub5_4 },
-        { id: 505, name: "", img: IMAGES.sub5_5 },
-        { id: 506, name: "", img: IMAGES.sub5_6 },
-        { id: 507, name: "", img: IMAGES.sub5_7 },
-        { id: 508, name: "", img: IMAGES.sub5_8 },
-        { id: 509, name: "", img: IMAGES.sub5_9 },
-        { id: 510, name: "", img: IMAGES.sub5_10 },
-        { id: 511, name: "", img: IMAGES.sub5_11 },
-        { id: 512, name: "", img: IMAGES.sub5_12 },
-        { id: 513, name: "", img: IMAGES.sub5_13 },
+        { id: 501, name: "Mnonbloklar", img: IMAGES.sub5_1 },
+        { id: 502, name: "Brend kompyuterler", img: IMAGES.sub5_2 },
+      ]
+    },
+    {
+      id: 6, name: "Noutbuklar we beylekiler", img: IMAGES.cat6,
+      subItems: [
+        { id: 601, name: "Noutbuklar", img: IMAGES.sub5_3 },
+        { id: 602, name: "Sumkalar we ryukzaklar", img: IMAGES.sub5_3 },
+        { id: 603, name: "Stendler we esbaplar", img: IMAGES.sub5_4 },
+        { id: 604, name: "Batareyler", img: IMAGES.sub5_5 },
+        { id: 605, name: "Zaryad berijiler", img: IMAGES.sub5_6 },
+        { id: 606, name: "Yadyn moduly", img: IMAGES.sub5_7 },
+        { id: 607, name: "Optiki toplayjylar DWD RW", img: IMAGES.sub5_8 },
+        { id: 608, name: "Ekranlar", img: IMAGES.sub5_9 },
+        { id: 609, name: "Klawiaturalar", img: IMAGES.sub5_10 },
+        { id: 610, name: "Klawiatura ucin nakleykalar", img: IMAGES.sub5_11 },
       ]
     }
   
